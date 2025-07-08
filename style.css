@@ -1,0 +1,72 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #1e1e2f, #29294d);
+  color: #fff;
+  text-align: center;
+  padding: 2rem;
+  margin: 0;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  background: #2e2e44;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+}
+
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.wheel-box {
+  background: #1b1b2d;
+  border: 2px dashed #00ffff;
+  border-radius: 15px;
+  padding: 2rem;
+  margin: 1.5rem 0;
+  min-height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#wheelBox p {
+  margin: 0.5rem 0;
+}
+
+#rewardText {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.timestamp {
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+button {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  background-color: #00ffff;
+  color: #000;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.2s;
+  font-weight: bold;
+  box-shadow: 0 4px 15px rgba(0, 255, 255, 0.3);
+}
+
+button:hover {
+  background-color: #00cccc;
+  transform: scale(1.05);
+}
+
+footer {
+  margin-top: 1.5rem;
+  font-size: 0.8rem;
+  color: #ccc;
+}
